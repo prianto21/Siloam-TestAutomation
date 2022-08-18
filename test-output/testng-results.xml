@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-15T18:53:49 WIB" name="Default suite" finished-at="2022-08-15T18:57:47 WIB" duration-ms="237235">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-08-15T18:53:49 WIB" name="Default test" finished-at="2022-08-15T18:57:47 WIB" duration-ms="237235">
+      <class name="com.soliam.RunnerFiles">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:53:49 WIB" name="setUpClass" finished-at="2022-08-15T18:53:50 WIB" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:53:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:53:56 WIB" duration-ms="6309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Masuk dengan tidak memasukan username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:53:56 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:54:02 WIB" duration-ms="5804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Masuk dengan tidak memasukan password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:54:02 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:54:08 WIB" duration-ms="6406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Masuk dengan username salah dan password benar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:54:08 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:54:14 WIB" duration-ms="6023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Masuk dengan username benar dan password salah"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:54:14 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:54:22 WIB" duration-ms="7312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Masuk dengan valid account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:54:22 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:54:28 WIB" duration-ms="6713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login sebagai admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:54:28 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:54:35 WIB" duration-ms="6503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["klik menu view & export"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:54:35 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:54:43 WIB" duration-ms="7678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["klik button export saat data default(kosong)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:54:43 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:54:50 WIB" duration-ms="6928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["klik button download saat data default(kosong)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:54:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:54:59 WIB" duration-ms="9831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["menentukan start-date dan end-date terus filter data valid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:54:59 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:55:07 WIB" duration-ms="7354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["menentukan start-date dan end-date terus filter data invalid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:55:07 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:55:15 WIB" duration-ms="8725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["klik View pada Data yang dipilih"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:55:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:55:26 WIB" duration-ms="10485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["klik button export data valid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:55:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:55:47 WIB" duration-ms="21206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["klik button export data invalid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:55:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:56:08 WIB" duration-ms="20851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["klik button download data valid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:56:08 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:56:19 WIB" duration-ms="10549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["klik button download data invalid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:56:19 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:56:26 WIB" duration-ms="7300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["otomatis terisi angka"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:56:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:56:37 WIB" duration-ms="11357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["menampilkan Action(View)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:56:37 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:56:45 WIB" duration-ms="7855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menampilkan Tanggal Submit"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:56:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:56:53 WIB" duration-ms="8228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menampilkan Nama"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:56:53 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:57:02 WIB" duration-ms="8809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menampikan Nomor BPJS"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:57:02 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:57:12 WIB" duration-ms="10323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menampikan Nomor KTP"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:57:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:57:20 WIB" duration-ms="7846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menampikan foto Faskes Awal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:57:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:57:29 WIB" duration-ms="8600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menampilkan foto Faskes Tujuan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:57:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:57:37 WIB" duration-ms="8345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menampikan Aggrement"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:57:37 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-15T18:57:46 WIB" duration-ms="9068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Mengecek button refresh"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Admin Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.soliam.RunnerFiles@37918c79]" started-at="2022-08-15T18:57:46 WIB" name="tearDownClass" finished-at="2022-08-15T18:57:47 WIB" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.soliam.RunnerFiles -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
