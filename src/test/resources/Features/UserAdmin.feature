@@ -1,5 +1,4 @@
 Feature: User Admin Test
-
   Scenario: Masuk dengan tidak memasukan username
     Given User mengakses url
     When User berada di dalam halaman login
